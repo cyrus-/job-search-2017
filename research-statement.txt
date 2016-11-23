@@ -1,0 +1,17 @@
+Programming language definitions assign meaning to complete programs. 
+Programmers, however, spend a substantial amount of time interacting with incomplete programs using tools like program editors and live programming environments (which interleave editing and evaluation.) 
+Semanticists have paid comparatively little attention to incomplete programs and the various interactions that programmers have with them, so the designers of modern programming tools lack semantic principles comparable to those available to language designers. 
+The Interactive Logic group will  to develop the ``missing'' semantic foundations for interactive programming tools, an
+
+To ensure that our theoretical developments lead toward a cohesive and practical programming experience, we plan to integrate them, on an ongoing basis, into a live lab notebook programming environment called Hazel. 
+
+No shortage of interesting problems for my students and I to tackle together.
+
+This, in turn, has made it difficult to study advanced editor services, e.g. those that rely on both an understanding of the semantics of the program that is being edited as well as the statistical features of prior edits and other programs. 
+
+The Interactive Logic group will 
+
+
+I am looking for a home for the Interactive Logic research group, which will develop a principled science of structure editor design rooted in type theory, statistical learning and disciplined qualitative and empirical methods.
+
+
