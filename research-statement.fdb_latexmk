@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1479934853 "research-statement.tex" "research-statement.pdf" "research-statement" 1479934853
+["pdflatex"] 1479969705 "research-statement.tex" "research-statement.pdf" "research-statement" 1479969706
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1479555504 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/enc/dvips/newtxtt/txttAec.enc" 1476972093 12640 5c77ac9a09863224fa4d495667f8e478 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1479555493 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -141,9 +141,9 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1479600611 1848177 b567b59fd9d62063141ec49d863a0fc4 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1479600401 7252864 40e896aab5c840eb393768f76e90f3df ""
   "mockup-1.pdf" 1479796257 103020 3f5a5a6510b9d6ecd35297b4acb3064c ""
-  "research-statement.aux" 1479934853 139 cffb8ab90cfdc9c136d1b2656edc2d30 ""
-  "research-statement.tex" 1479934853 20818 cb66cbc66f8cd050dbbcda701ef0a1ab ""
+  "research-statement.aux" 1479969705 515 94caf12865f6ac4c34f18c7ebae5f73e ""
+  "research-statement.tex" 1479969705 21201 f162be23852fcf53dfd13de316fb4aee ""
   (generated)
-  "research-statement.pdf"
-  "research-statement.log"
   "research-statement.aux"
+  "research-statement.log"
+  "research-statement.pdf"
