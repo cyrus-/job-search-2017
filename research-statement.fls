@@ -241,6 +241,8 @@ INPUT /usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT mockup-1.pdf
 INPUT ./mockup-1.pdf
 INPUT ./mockup-1.pdf
+INPUT research-statement.bbl
+INPUT research-statement.bbl
 INPUT research-statement.aux
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/newtxtt/txttAec.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc
