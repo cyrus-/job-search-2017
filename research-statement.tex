@@ -96,6 +96,16 @@ I entered graduate school at CMU in the Neural Computation PhD program. There, I
 \subsection*{Future Research Directions}
 \vspace{-4px}
 
+\begin{figure}
+\vspace{-2ex}
+\centering
+\includegraphics[width=\textwidth]{mockup-1}
+\vspace{-4.5ex}
+\caption{A mockup of Hazel.}
+\label{fig:hazel-mockup}
+\vspace{-2ex}
+\end{figure}
+
 Going forward, my research group, together with my present and future collaborators, will (1) continue to develop new adaptation and intelligent action suggestion mechanisms, starting from type theoretic and statistical first principles; and (2) integrate these advances into a coherent and principled next-generation \emph{live lab notebook} programming environment called Hazel. A mockup of the Hazel programming environment, which is organized much like the widely adopted Jupyter (formerly IPython) lab notebook, is shown in Figure \ref{fig:hazel-mockup}. Hazel will advance beyond Jupyter in several ways. 
 
 First, Hazel is a \emph{structure editor}, meaning that programs are never left syntactically malformed. Instead, portions of the program that are not yet complete are explicitly marked with holes, indicated by rounded squares in the cell marked (a) in Figure \ref{fig:hazel-mockup}. In fact, Hazel, like Hazelnut, will go beyond syntactic well-formedness to maintain a stronger invariant: that every incomplete program that arises is also statically meaningful. This will require \textbf{scaling up the static semantics for incomplete programs} developed for Hazelnut (POPL 2017). I plan to do so by equipping Hazel with a modularly programmable static semantics, building upon my recent research in this area (GPCE 2016). In particular, I plan to develop a variant of this mechanism within Coq, and use Coq's extraction mechanism to generate an OCaml implementation, which will be compiled by \li{js_of_ocaml} (as in our present Hazelnut implementation.) This will allow us to make another fundamental advance: fragment providers will be able to develop \textbf{modular correctness proofs}.
@@ -106,15 +116,7 @@ In the cell marked (c), the programmer applies \li{summary_stats} to the aforeme
 
 The sidebar marked (d) offers feedback and action suggestions to the programmer. There are several fundamental research problems lurking behind this sidebar. The first was already discussed -- we need a semantics for edit actions. Our paper at POPL 2017 lays the foundations for Hazel's primitive action semantics. We next need a system that allows library providers to modularly install new \textbf{high-level edit actions}, defined in terms of the primitive actions. For example, it should be possible to implement various type-directed program generation and bug repair techniques as libraries, and integrate them directly into the editor, using this system. Each of these are substantial research areas in their own right -- I am already collaborating with Claire Le Goues at CMU, an expert on automated bug repair, and I plan to develop further collaborations in these directions in the future. Third, we need an \textbf{action suggestion semantics} that determines which suggestions are actually generated for any given edit state. This semantics must come equipped with a theorem that establishes that the suggestions offered are meaningful at the cursor (in blue in Figure \ref{fig:hazel-mockup}).  Finally, we need a \textbf{statistical model of actions} capable of ranking the suggested actions, as shown in the sidebar in Figure \ref{fig:hazel-mockup}. There are several theses worth of open problems on this front. I plan to start with a simple foundational statistical model (ongoing work, discussed above), and move forward to incorporate more sophisticated machine learning techniques, ideally in collaboration with researchers in machine learning. (This will be the basis for at least one large grant submission.)
 
-\begin{figure}
-\vspace{-2ex}
-\centering
-\includegraphics[width=\textwidth]{mockup-1}
-\vspace{-4.5ex}
-\caption{A mockup of Hazel.}
-\label{fig:hazel-mockup}
-\vspace{-2ex}
-\end{figure}
+
 
 With Hazel, we are intentionally blurring the line between the programming language and the program editor. This opens up a number of interesting research directions in \textbf{language-editor co-design}. For example, it may be possible to recast  ``tricky'' language mechanisms, like function overloading, type classes, implicit values and unqualified imports, as editor mechanisms. Because we will be treating programming as a structured conversation between the programmer and the programming environment, the editor can simply ask the programmer to resolve ambiguities when they arise. The programmer's choice is then stored unambiguously in the syntax tree. %, so this mechanism is stable with respect to library evolution (unlike the analagous language mechanisms.) 
 
