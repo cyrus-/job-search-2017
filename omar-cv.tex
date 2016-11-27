@@ -1,0 +1,457 @@
+% Jason R. Blevins - Curriculum Vitae
+%
+% Copyright (C) 2004-2016 Jason R. Blevins <jrblevin@sdf.org>
+% http://jblevins.org/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely.  No attribution is
+% required in any resulting documents.  I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{enumitem}
+
+% Fonts
+\usepackage[T1]{fontenc}
+% \usepackage[urw-garamond]{mathdesign}
+\usepackage{mathpazo}
+\usepackage{microtype}
+% \usepackage{textcomp}
+% Set your name here
+\def\name{Cyrus Omar}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {programming languages, computer science},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 9.0in},
+  left=1.0in,
+  top=1.0in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets and compact spacing
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+    \setlength{\itemsep}{0.25em}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0.25em}
+  }
+}{
+  \end{list}
+}
+\setlist[enumerate]{itemsep=0.25em}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\bigskip
+
+\begin{minipage}[t]{0.495\textwidth}
+  Computer Science Department \\
+  School of Computer Science \\
+  Carnegie Mellon University \\
+  5000 Forbes Avenue \\
+  Pittsburgh, PA 15213
+\end{minipage}
+\begin{minipage}[t]{0.495\textwidth}
+  Phone: (302) 743-1494 \\
+  Office: 9003 Gates-Hillman Center \\
+  Email: \href{mailto:comar@cs.cmu.edu}{\texttt{comar@cs.cmu.edu}} \\
+  Homepage: \href{http://cs.cmu.edu/~comar}{\texttt{http://cs.cmu.edu/\textasciitilde comar}} \\
+  Citizenship: US
+\end{minipage}
+
+% \section*{Employment}
+
+% \begin{itemize}
+% \item The Ohio State University, Department of Economics,
+%   Assistant Professor, July 2010--present.
+% \item Yale Center for Customer Insights,
+%   Melville Blake '80 Visiting Summer Fellow,
+%   2012.
+% \item Duke University,
+%   Research and Teaching Assistant,
+%   2005--2010.
+% \end{itemize}
+
+% \subsection*{Duke University, Department of Economics}
+%
+% \begin{itemize}
+% \item Research Assistant, Jacob Vigdor, Summer 2005--Summer 2006.
+% \item Teaching Assistant, Ph.D. Microeconomic Analysis, Thomas Nechyba, Fall 2005.
+% \item Teaching Assistant, Ph.D. Game Theory, Curtis Taylor, Spring 2006.
+% \item Instructor, Microeconomics Qualifier Camp, Summer 2006.
+% \item Research Assistant, Han Hong, Fall 2006--Spring 2007.
+% \item Research Assistant, Aprajit Mahajan and Alessandro Tarozzi,
+%   October--November 2006, March--June 2007.
+% \item Research Assistant, Shakeeb Khan and Christopher Timmins,
+%   March--June 2007.
+% \item Teaching Assistant, Ph.D. Econometrics II, Shakeeb Khan,
+%   Spring 2007.
+% \item Research Assistant, Peter Arcidiacono, Patrick Bayer,
+%   and Paul Ellickson, Fall 2007--Spring 2009.
+% \item Research Assistant, Shakeeb Khan, Fall 2009--Spring 2010.
+% \item Research Assistant, Aprajit Mahajan, July--September 2009.
+% \end{itemize}
+
+% \subsection*{North Carolina State University, Department of Mathematics}
+%
+% \begin{itemize}
+% \item Research Assistant, Moody Chu and Robert Funderlic,
+%   Spring 2003--Fall 2004.
+% \item Mathematics Tutor, Academic Support Program for Student Athletes,
+%   Summer 2001.
+% \end{itemize}
+
+% \subsection*{Colorado School of Mines,
+%   Department of Mathematical and Computer Sciences}
+%
+% \begin{itemize}
+% \item Research Assistant, Willy Hereman, Summer 2002.
+% \end{itemize}
+
+\section*{Education}
+
+\subsection*{Carnegie Mellon University}
+
+\begin{itemize}
+  \item Ph.D. in Computer Science (2010-present, expected Spring 2017)
+    \begin{itemize}
+      \item Advisor: Jonathan Aldrich
+      \item Thesis: \emph{Reasonably Programmable Syntax}
+      % \item Coursework: {Type Systems}, {Machine Learning}, {Optimizing Compilers for Modern Architectures}, {Advanced Operating Systems and Distributed Systems}, {Human Aspects of Software Development}, {Algorithms (Placed Out)}
+    \end{itemize}
+  \item Center for the Neural Basis of Cognition
+    \begin{itemize}
+      \item Graduate Training Program (2010-present)
+      \item PhD Program in Neural Computation (2008-2010)
+      % \item Coursework: {Computational Neuroscience Methods}, {Mathematical Neuroscience}, {Computational Models of Neural Systems}, {Systems Neuroscience}, {Applied Analysis}, {Time Series Analysis II}, {Cognitive Neuroscience}
+    \end{itemize}
+\end{itemize}
+
+\subsection*{University of Illinois at Urbana-Champaign}
+\begin{itemize}
+  \item B.S. in Computer Science, \textit{summa cum laude}, 2008
+  \item B.S. in Molecular \& Cellular Biology, \textit{summa cum laude}, 2008
+  \item GPA: 3.99 / 4.00
+
+\end{itemize}
+
+\section*{Research}
+
+\textit{Research Interests:} Adaptable and intelligent programming languages and programming environments.
+
+\vspace{-6px}
+\subsection*{Peer-Reviewed Full Papers}
+
+\begin{enumerate}
+% \item \underline{C. Omar} and C. Le Goues. Statistically Ranked, Type-Aware Action Suggestions. \textit{POPL 2018}. 
+% \item \underline{C. Omar} and J. Aldrich. Reasonably Programmable Syntax. \textit{ICFP 2017}. 
+% \item \underline{C. Omar}, I. Voysey, M. Hilton, J. Aldrich and M. Hammer. Hazelnut Live: Semantic Foundations for Evaluating Incomplete Programs. \textit{ICFP 2017}.
+% \item \underline{C. Omar} and J. Aldrich. Tidy: A Modularly Programmable Bidirectionally Typed Translation Calculus. \textit{ICFP 2017}. 
+\item {Hazelnut: A Bidirectionally Typed Structure Editor Calculus}
+  \begin{itemize}
+    \item \underline{C. Omar}, I. Voysey, M. Hilton, J. Aldrich and M. Hammer
+    \item \textit{44th ACM SIGPLAN Symposium on Principles of Programming Languages \textbf{(POPL 2017)}}
+  \end{itemize}
+\item {Programmable Semantic Fragments: The Design and Implementation of \texttt{typy}}
+  \begin{itemize}
+    \item \underline{C. Omar} and J. Aldrich.
+    \item \textit{15th ACM SIGPLAN International Conference on Generative Programming: Concepts \& Experiences \textbf{(GPCE 2016)}}
+  \end{itemize}
+\item {Safely Composable Type-Specific Languages}
+  \begin{itemize}
+    \item \underline{C. Omar}, D. Kurilova, L. Nistor, B. Chung, A. Potanin and J. Aldrich.
+    \item \textit{28th European Conference on Object-Oriented Programming \textbf{(ECOOP 2014)}}
+    \item \textbf{Distinguished Paper Award}
+  \end{itemize}
+\item {Active Code Completion}.
+  \begin{itemize}
+      \item \underline{C. Omar}, Y. Yoon, T. D. LaToza and B. A. Myers
+      \item \textit{45th International Conference on Software Engineering \textbf{(ICSE 2012)}}
+  \end{itemize}
+\item {Neural correlation is stimulus modulated by feedforward inhibitory circuitry}
+  \begin{itemize}
+    \item J. W. Middleton, \underline{C. Omar}, B. Doiron and D. J. Simons
+    \item \textit{Journal of Neuroscience} 32(2):506--18 \textit{\textbf{(J. Neurosci. 2012)}}
+  \end{itemize}
+\item A Feedback Information-Theoretic Approach to the Design of Brain-Computer Interfaces.
+  \begin{itemize}
+    \item  \underline{C. Omar}, A. Akce, M. Johnson, T. Bretl, R. Ma, E. Maclin, M. McCormick and T. Coleman
+    \item \textit{International Journal of Human-Computer Interaction}, 27:1, 5--23 \textit{\textbf{(IJHCI 2011)}}
+  \end{itemize}
+\end{enumerate}
+
+\subsection*{Peer-Reviewed Short Papers}
+
+\begin{enumerate}[resume]
+\item Composable and Hygienic Typed Syntax Macros
+  \begin{itemize}
+    \item \underline{C. Omar}, C. Wang and J. Aldrich
+    \item \textit{30th ACM Symposium on Applied Computing \textbf{(SAC 2015)}}
+  \end{itemize}
+\item Statically Typed String Sanitation Inside a Python
+  \begin{itemize}
+    \item N. Fulton, \underline{C. Omar} and J. Aldrich
+    \item \textit{1st International Workshop on Privacy and Security in Programming \textbf{(PSP 2014)}}
+    \item \textbf{Best Paper Award}
+  \end{itemize}
+\item Collaborative Infrastructure for Test-Driven Scientific Model Validation
+  \begin{itemize}
+    \item \underline{C. Omar}, J. Aldrich and R. Gerkin
+    \item \textit{47th International Conference on Software Engineering \textbf{(ICSE 2014)}}
+    \item New Ideas \& Emerging Results Track (18\% acceptance rate)
+  \end{itemize}
+\item Language-Based Architectural Control
+  \begin{itemize}
+    \item J. Aldrich, \underline{C. Omar}, A. Potanin and D. Li
+    \item \textit{6th International Workshop on Aliasing, Capabilities and Ownership \textbf{(IWACO 2014)}}
+  \end{itemize}
+\item Type-Directed, Whitespace-Delimited Parsing for Embedded DSLs
+  \begin{itemize}
+    \item \underline{C. Omar}, B. Chung, D. Kurilova, A. Potanin and J. Aldrich
+    \item \textit{2013 International Workshop on the Globalization of Domain-Specific Languages \textbf{(GlobalDSL 2013)}}
+  \end{itemize}
+\item Policies for neural prosthetic control: initial experiments with a text interface
+  \begin{itemize}
+    \item \underline{C. Omar}, M. Johnson, T. Bretl and T. Coleman
+    \item \textit{2008 American Control Conference \textbf{(ACC 2008)}}
+  \end{itemize}
+\item Querying the user properly for high-performance brain machine interfaces: recursive estimation, control and feedback information theoretic perspectives
+  \begin{itemize}
+    \item \underline{C. Omar}, M. Johnson, T. Bretl and T. Coleman
+    \item \textit{2008 IEEE International Conference on Acoustics, Speech, and Signal Processing \textbf{(ICASSP 2008)}}
+  \end{itemize}
+\item Shedding the weights: more with less
+  \begin{itemize}
+    \item T. Achler, \underline{C. Omar} and E. Amir
+    \item \textit{2008 International Joint Conference on Neural Networks \textbf{(IJCNN 2008)}}
+  \end{itemize}
+\end{enumerate}
+
+\subsection*{Working Drafts}
+
+\begin{enumerate}[resume]
+\item Reasonably Programmable Syntax
+  \begin{itemize}
+    \item \underline{C. Omar} and J. Aldrich
+    \item Dissertation and accompanying journal paper in preparation
+    \item \textbf{2nd Place, ICFP 2015 Graduate Student Research Competition}
+  \end{itemize}
+\item Hazelnut Live: Semantic Foundations for Evaluating Incomplete Programs
+  \begin{itemize}
+    \item \underline{C. Omar}, I. Voysey, M. Hilton, J. Aldrich and M. Hammer
+  \end{itemize}
+\item Statistical Models of Typed Syntax Trees
+  \begin{itemize}
+    \item \underline{C. Omar}, S. Joshi and F. Cruz
+    \item \textbf{3rd Place, SPLASH 2014 Graduate Student Research Competition}
+  \end{itemize}
+\item Tidy: A Modularly Programmable Bidirectionally Typed Translation Semantics
+  \begin{itemize}
+    \item \underline{C. Omar} and J. Aldrich
+  \end{itemize}
+\end{enumerate}
+
+% \subsection*{Scientific Software}
+%
+% \begin{itemize}
+% \item \href{http://jblevins.org/research/pdest}{PDESolutionTester},
+%   A Mathematica program for the symbolic verification of exact solutions
+%   of nonlinear partial differential equations,
+%   with Jeff Heath and Willy Hereman (2002).
+% \item \href{http://jblevins.org/research/dfbr}{DFBR},
+%   A Stata program for distribution-free estimation of heteroskedastic
+%   binary response models,
+%   with Shakeeb Khan (2009).
+% \end{itemize}
+
+\section*{Teaching}
+\subsection*{Carnegie Mellon University}
+\begin{itemize}
+  \item Principles of Programming Languages (15-312)
+    \begin{itemize}
+      \item Head TA, Spring 2013 with Prof. R. Harper
+    \end{itemize}
+  \item Functional Programming (15-150)
+    \begin{itemize}
+      \item Head TA, Fall 2011 with Prof. D. Licata
+    \end{itemize}
+\end{itemize}
+
+\section*{Service}
+\begin{enumerate}
+  \item Publicity Chair and Program Committee, GPCE 2017
+  \item Program Committee, DSLDI 2015
+  \item Artifact Evaluation Committee, ECOOP 2015
+  \item CSD Graduate Admissions Committee, 2013
+  \item CNBC Social Committee, 2011
+\end{enumerate}
+
+\section*{Fellowships \& Individual Awards}
+\begin{enumerate}
+  \item {Alan J. Perlis Graduate Student Teaching Award} (2013, 1 award per year across SCS)
+  \item DOE Computational Science Graduate Fellowship (2008-2012, <3\% acceptance rate)
+  \item NSF Graduate Research Fellowship (2008-2013, 10\% acceptance rate)
+  \item Inductee, University of Illinois Bronze Tablet (2008, 3\% of graduating seniors)
+  \item Duncan H. Lawrie Leadership Award (2008)
+  \item Jeffrey P. Blahut Memorial Scholarship (2007)
+  \item Franz Hohn and J. P. Nash Scholarship (2006)
+\end{enumerate}
+
+% \section*{Seminar and Conference Presentations}
+
+% \begin{itemize}
+% \item 2017:
+%   American Economic Association Annual Meeting (Chicago, scheduled),
+%   Indiana University (scheduled),
+%   University of Maryland (scheduled).
+% \item 2016:
+%   University of Calgary Empirical Microeconomics Workshop (Banff),
+%   Ohio State University (Glenn College of Public Affairs),
+%   University of Arizona.
+% \item 2015:
+%   University of British Columbia,
+%   World Congress of the Econometric Society (Montr\'{e}al),
+%   Stata Conference (Columbus),
+%   Midwest Econometrics Group (St. Louis Fed).
+% \item 2014:
+%   Columbia University,
+%   University of Iowa,
+%   University of Kentucky,
+%   University of Calgary Empirical Microeconomics Workshop (Banff),
+%   International Industrial Organization Conference (IIOC, Chicago),
+%   Midwest Economics Association (Evanston, IL).
+% \item 2013:
+%   University of Chicago,
+%   Northwestern University,
+%   University of Michigan,
+%   Midwest Econometrics Group (Indiana University).
+% \item 2012:
+%   Yale University (School of Management),
+%   Washington University (Olin Business School),
+%   University of Virginia.
+% \item 2011:
+%   Pennsylvania State University,
+%   University of Toronto,
+%   University of Texas at Austin,
+%   Vanderbilt University,
+%   University of Rochester (Simon Graduate School of Business),
+%   Ohio State University (AEDE),
+%   Midwest Econometrics Group (Chicago, Booth).
+% \item 2010:
+%   Ohio State University,
+%   University of Illinois at Urbana-Champaign,
+%   University of Western Ontario,
+%   University of Pittsburgh,
+%   Midwest Econometrics Group (Washington University),
+%   Triangle Econometrics Conference,
+%   ERID Conference on Identification Issues in Economics (Duke).
+% \end{itemize}
+
+% \begin{itemize}
+% \item University of British Columbia, Department of Economics, September 18, 2015.
+% \item University of Iowa, Department of Economics, November 12, 2014. % ctgames
+% \item Columbia University, Department of Economics, November 6, 2014. % ctgames
+% \item University of Kentucky, Department of Economics, October 17, 2014. % abbe
+% \item University of Chicago, Department of Economics, December 5, 2013. % abbe
+% \item Northwestern University, Department of Economics, December 3, 2013. % ctgames
+% \item University of Michigan, Department of Economics, March 29, 2013. % abbe
+% \item University of Virginia, Department of Economics, October 2, 2012. % abbe
+% \item Washington University, Olin Business School, September 13, 2012. % abbe
+% \item Yale University, School of Management, August 13, 2012. % smcdmm
+% \item Yale University, School of Management, July 24, 2012. % abbe
+
+% \item University of Toronto, Department of Economics, December 2, 2011. % abbe
+% \item Pennsylvania State University, Department of Economics, November 7, 2011. % abbe
+% \item The Ohio State University, Department of Economics, November 1, 2011. % cuberoot
+% \item Vanderbilt University, Department of Economics, September 15, 2011. % panel
+% \item University of Rochester, Simon Graduate School of Business, May 6, 2011. % smcdmm
+% \item The Ohio State University, Department of Agricultural, Environmental, and Development Economics, April 21, 2011. % smcdmm
+% \item University of Texas at Austin, Department of Economics, April 4, 2011. % panel
+% \item University of Illinois at Urbana-Champaign, Department of Economics, February 16, 2010. % panel
+% \item University of Western Ontario, Department of Economics, January 26, 2010. % abbe
+% \item The Ohio State University, Department of Economics, January 21, 2010. % abbe
+% \item University of Pittsburgh, Department of Economics, January 15, 2010. % panel
+% \end{itemize}
+
+% \begin{itemize}
+% \item 25th Annual Meeting of the Midwest Econometrics Group,
+%   Federal Reserve Bank of St. Louis, October 9--10, 2015. % sde
+% \item 11th World Congress of the Econometric Society,
+%   Montreal, Canada, August 17--21, 2015. % ctgames
+% \item 2015 Stata Conference, Columbus, OH, July 30--31, 2015. % dfbr
+% \item University of Calgary Empirical Microeconomics Workshop,
+%   Banff, Canada, September 20--21, 2014. % ctgames
+% \item 12th Annual International Industrial Organization Conference (IIOC),
+%   Chicago, IL, April 12, 2014. % ctgames, discussion
+% \item Midwest Economics Association Annual Meeting,
+%   Evanston, IL, March 22, 2014. % ctgames, discussion
+% \item 23rd Annual Meeting of the Midwest Econometrics Group,
+%   Indiana University, October 25--26, 2013. % ctgames
+% \item 21st Annual Meeting of the Midwest Econometrics Group,
+%   University of Chicago Booth School of Business, October 7, 2011. % dcident
+% \item 20th Annual Meeting of the Midwest Econometrics Group,
+%   Washington University, October 2, 2010. % panel
+% \item Triangle Econometrics Conference,
+%   Research Triangle Park, NC, December 4, 2009. % panel
+% \item ERID Conference on Identification Issues in Economics,
+%   Duke University, October 3, 2008. % smcdmm
+% \end{itemize}
+
+\section*{Advising}
+
+\begin{itemize}
+\item Undergraduates (year; co-advisor; subsequent placement)
+  \begin{enumerate}
+  \item A. Benson (2016; co-advised with Prof. J. Aldrich; Facebook)
+  \item C. Wang (2015; co-advised with Prof. J. Aldrich; PhD student, University of Washington)
+  \item B. Chung (2014; co-advised with Prof. J. Aldrich; PhD student, Northeastern University)
+  \item N. Fulton (2012; co-advised with Prof. J. Aldrich; PhD student, Carnegie Mellon University)
+  \item M. Rule (2009; co-advised with Prof. N. Urban; PhD student, Brown University)
+  \end{enumerate}
+\end{itemize}
+
+% Footer
+\bigskip
+{\small Last updated: \today}
+
+\end{document}
