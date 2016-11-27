@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.11.24)  27 NOV 2016 13:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.11.24)  27 NOV 2016 13:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -626,14 +626,14 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* v-part:(T,H,B)=(57.81621pt, 679.33757pt, 57.81621pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=469.75502pt
-* \textheight=650.43001pt
+* \textheight=679.33757pt
 * \oddsidemargin=0.0pt
 * \evensidemargin=0.0pt
-* \topmargin=-37.0pt
+* \topmargin=-51.45378pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=9.0pt
@@ -754,13 +754,13 @@ Package microtype Info: Character `textemdash ' is missing
 File: mockup-1.pdf Graphic file (type pdf)
  <use mockup-1.pdf>
 Package pdftex.def Info: mockup-1.pdf used on input line 112.
-(pdftex.def)             Requested size: 375.80544pt x 141.16042pt.
+(pdftex.def)             Requested size: 469.75502pt x 176.45508pt.
 
 (./research-statement.bbl) [3 <./mockup-1.pdf>] (./research-statement.aux) ) 
 Here is how much of TeX's memory you used:
  16900 strings out of 493013
  319720 string characters out of 6139316
- 410478 words of memory out of 5000000
+ 411482 words of memory out of 5000000
  19963 multiletter control sequences out of 15000+600000
  22903 words of font info for 131 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -772,7 +772,7 @@ ewtxbtt.pfb></usr/share/texmf-dist/fonts/type1/public/newtxtt/newtxtt.pfb></usr
 /share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fo
 nts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palati
 no/uplri8a.pfb>
-Output written on research-statement.pdf (3 pages, 184591 bytes).
+Output written on research-statement.pdf (3 pages, 184510 bytes).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
