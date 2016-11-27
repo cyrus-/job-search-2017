@@ -107,10 +107,10 @@ In the cell marked (c), the programmer applies \li{summary_stats} to the aforeme
 The sidebar marked (d) offers feedback and action suggestions to the programmer. There are several fundamental research problems lurking behind this sidebar. The first was already discussed -- we need a semantics for edit actions. Our paper at POPL 2017 lays the foundations for Hazel's primitive action semantics. We next need a system that allows library providers to modularly install new \textbf{high-level edit actions}, defined in terms of the primitive actions. For example, it should be possible to implement various type-directed program generation and bug repair techniques as libraries, and integrate them directly into the editor, using this system. Each of these are substantial research areas in their own right -- I am already collaborating with Claire Le Goues at CMU, an expert on automated bug repair, and I plan to develop further collaborations in these directions in the future. Third, we need an \textbf{action suggestion semantics} that determines which suggestions are actually generated for any given edit state. This semantics must come equipped with a theorem that establishes that the suggestions offered are meaningful at the cursor (in blue in Figure \ref{fig:hazel-mockup}).  Finally, we need a \textbf{statistical model of actions} capable of ranking the suggested actions, as shown in the sidebar in Figure \ref{fig:hazel-mockup}. There are several theses worth of open problems on this front. I plan to start with a simple foundational statistical model (ongoing work, discussed above), and move forward to incorporate more sophisticated machine learning techniques, ideally in collaboration with researchers in machine learning. (This will be the basis for at least one large grant submission.)
 
 \begin{figure}
-\vspace{-6.5ex}
+\vspace{-2ex}
 \centering
 \includegraphics[width=\textwidth]{mockup-1}
-\vspace{-2.5ex}
+\vspace{-4.5ex}
 \caption{A mockup of Hazel.}
 \label{fig:hazel-mockup}
 \vspace{-2ex}
