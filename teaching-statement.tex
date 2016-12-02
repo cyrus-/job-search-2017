@@ -1,0 +1,110 @@
+\PassOptionsToPackage{svgnames,dvipsnames,svgnames}{xcolor}
+\documentclass[9pt]{extarticle}
+\usepackage{microtype} 
+% \usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{soul}
+\usepackage{mathpazo}
+\usepackage[hmargin=1in,vmargin=0.8in]{geometry}
+\usepackage{todonotes}
+\usepackage{listings}
+\lstset{tabsize=2, 
+basicstyle=\ttfamily\fontsize{9pt}{1em}\selectfont, 
+commentstyle=\itshape\ttfamily\color{gray}, 
+stringstyle=\ttfamily\color{red},
+mathescape=false,escapechar=\#,
+numbers=left, numberstyle=\scriptsize\color{gray}\ttfamily, language=ML,moredelim=[il][\sffamily]{?},showspaces=false,showstringspaces=false,xleftmargin=15pt, morekeywords=[1]{tyfam,opfam,let,fn,val,def,casetype,objtype,metadata,of,*,datatype,new,toast,syntax,module,where,import,for,ana,syn,opcon,tycon,metasignature,metamodule,metasig,metamod,static,at,tycase,mod,macro,match,float,pattern,in,patterns,expressions,implicit,forall,rectype,fold,unfold,inj,by,spliced},deletekeywords={double},classoffset=0,belowskip=\smallskipamount,
+moredelim=**[is][\color{red}]{SSTR}{ESTR},
+moredelim=**[is][\color{Green}]{SHTML}{EHTML},
+moredelim=**[is][\color{purple}]{SCSS}{ECSS},
+moredelim=**[is][\color{brown}]{SSQL}{ESQL},
+moredelim=**[is][\color{orange}]{SCOLOR}{ECOLOR},
+moredelim=**[is][\color{magenta}]{SPCT}{EPCT}, 
+moredelim=**[is][\color{gray}]{SNAT}{ENAT}, 
+moredelim=**[is][\color{Green}]{SURL}{EURL},
+moredelim=**[is][\color{SeaGreen}]{SQT}{EQT},
+moredelim=**[is][\color{Periwinkle}]{SGRM}{EGRM},
+moredelim=**[is][\color{YellowGreen}]{SID}{EID},
+moredelim=**[is][\color{Sepia}]{SUS}{EUS},
+deletestring=[d]{"},
+}
+\lstloadlanguages{Java,VBScript,XML,HTML,ML}
+\let\li\lstinline
+
+\usepackage{newtxtt}
+\usepackage{enumitem}
+
+\newcommand{\HazelEnv}{Hazel}
+
+\begin{document}
+\vspace{-8px}
+\section*{Teaching Statement -- Cyrus Omar}
+\vspace{-6px}
+
+% I believe that the goal of a teacher should be to  about computing is by summarizing and communicating the research results of yesterday to the students of today through engaging and rigorous coursework in a socially supportive environment. Computing practice, in turn, progresses when these ideas serve as seed and soil for \emph{computing cultures} that exist outside of the walls of the ivory tower. 
+
+When I teach, my goal is to help each individual student develop an understanding of, and appreciation for, fundamental principles. By this, I mean fundamental mathematical and scientific principles, of course, but also fundamental principles of technical discourse, because I believe that universities must deliberately aim to raise the standard of discourse in the broader culture of computing.
+
+For example, I believe that being able to use a {shared vocabulary} precisely and fluently is of fundamental importance. 
+%To emphasize this, I teach students how to unambiguously pronounce and explain the behavior of a number of example functions or proofs before expecting them to write functions or proofs of their own (much as we teach children to speak and read before we teach them to write.) 
+When a student in a recitation section or in office hours has a question about a function or proof that they are working on, I ask them to read and explain their code out loud to me ``from the top'' and, as they do so, I help them rephrase their reading until it is clear and correct. This prompts them to organize their thoughts, so that by the time they have finished, many students have figured out the next step on their own.
+% For example,
+%
+% fun fib(n : nat) = 
+%   match n with 
+%   | Z -> Z
+%   | S(Z) -> S(Z)
+%   | S(S(n')) -> (fib S(n')) + (fib n')
+%
+% fib is a function over natural numbers. fib(n) computes the nth fibonacci number by recursing on n. the base cases are 0 or 1. in both cases, fib(n) = n. otherwise, n must at least two, i.e. it must be of the form S(S(n')) for some n'.  it recursively computes fib(n - 1) and fib(n - 2) and then adds them together.
+If not, they are better prepared to understand my subsequent guidance. % The same technique is also effective when helping my more advanced students and advisees learn how to read inference rules and academic papers.%
+The benefits of this approach extend beyond the classroom, because the very same communication skills help students engage productively with their future coworkers and collaborators. 
+
+% Deriving an understanding of a concept from simpler mathematical principles is incomparably rewarding, but it important to acknowledge that it takes substantial time and effort. That is why 
+I strive at the same time to communicate with \emph{patience}, \emph{sensitivity} and \emph{generosity}, and I believe that we must explicitly advocate for these virtues, just as we explicitly advocate for precision and rigor, if we are to build a computing culture that does not alienate those who are new or struggling with subtle concepts and unfamiliar standards of discourse. Often, these are individuals from underrepresented groups who have not previously had access to a supportive technical community. I believe that great universities have a cultural responsibility to lead in this regard.
+
+In order to demonstrate that the principles that students are learning are in fact quite practical, I like to tell vivid stories, including success stories from industry, stories about cool research projects that build upon what the students are learning, and stories that demonstrate the perils of taking an \emph{ad hoc} approach to software development, language design and technical discourse. I am also a big proponent of course projects, and of undergraduate research more generally. I have mentored three undergraduate summer research students, and all of them were able to publish their results and went on to prestigious PhD programs in programming languages (at CMU, Washington and Northeastern.) I also helped advise a student working on a senior thesis who recently started an industry position at Facebook.
+
+% In particular, I seek to (1) convey a deep understanding of ; and (2) an aesthetic appreciation of \emph{elegance}, \emph{rigor} and \emph{systematic thought}. This requires developing engaging and rigorous technical material. I believe that vividly conveying to students the meaning and the value of \emph{elegance}, \emph{rigor} and \emph{systematic thought}. To do this requires a sensitivity to the social norms and technical preconceptions that students are coming in with. In particular, it requires listening to individual students and 
+
+% that , and being sensitive to the social norms and technical preconceptions that students are coming in with.
+
+
+
+\subsection*{Experience}
+I have served as the head TA for two courses at CMU. In both cases, these courses were entering a period of significant transition, and I was able to substantially influence their development. For my role in these two courses, I was awarded the School of Computer Science's \textbf{Alan J. Perlis Graduate Student Teaching Award} in 2013.
+
+\paragraph{Functional Programming (15-150)} I served as the head graduate TA, alongside 14 undergraduate course assistants, for the first full-scale instance of CMU's new core sequence course on the theory and practice of functional programming. We all held office hours and weekly recitations, graded code (in Standard ML) and handwritten proofs, and contributed to the development of the homework assignments. The students in this course responded quite positively to my teaching style --- I frequently needed to reserve a separate classroom for my ``office'' hours, because 20 or more students (out of about 180) would invariably attend. In addition to these responsibilities, I served as a guide to the undergraduate course assistants and participated in the preparation of grading rubrics, recitation notes and exam questions.  
+
+\paragraph{Principles of Programming Languages (15-312)} I served as the senior graduate TA, together with another graduate TA, for CMU's undergraduate programming languages course. This course, taken by about 45 juniors and seniors, was taught by Prof. Bob Harper, who had just released his book \emph{Practical Foundations for Programming Languages}. As such, we substantially revamped every homework assignment to follow the developments introduced in this book (which is now in its second edition and being used at an increasing number of universities.) I played a leading role in this transition, developing most of the theoretical problem statements and reference solutions and contributing significantly to the programming assignment code. I also held office hours and weekly recitations, developed new material for these recitations and responded to questions on the web forum. Feedback from the students was overwhelmingly positive, e.g.
+
+\begin{quote}
+``Very patient when one on one, good explanations, helpful. Stays even after office hours technically over to answer questions, very good TA''
+\end{quote}
+\begin{quote}
+``Know's what he's talking about and knows how to explain it.''
+\end{quote}
+\subsection*{Future Courses}
+The experiences described above have left me well prepared to teach core courses covering Functional Programming and Programming Languages (at both the undergraduate and graduate level.) I am also confident that I can teach the necessary prerequisities (i.e. discrete mathematics), and core courses in imperative programming (I have followed the development of CMU's companion Imperative Programming course, 15-122.) 
+
+Other undergraduate courses that I believe that I can teach include:
+\begin{itemize}
+\item Programming for Scientists (and Data Scientists). Here my research experiences and coursework in neuroscience would likely be of particular relevance.
+\item Parallel Programming and High-Performance Computing. I have substantial coursework in this area, as well as substantial practical experience and research experience with CUDA and OpenCL, and non-trivial experience with various other frameworks (e.g. Spark, Hadoop and others.)
+\item Compilers
+\item Logics \& Proofs, covering various logics, their accompanying proof theories, and proof assistants (e.g. based on Pierce's \emph{Software Foundations}.) 
+\item Introductory Statistics and Machine Learning. I have substantial experience with these topics, both as a scientist and with my more recent research on statistical models of programs and edit actions.
+\end{itemize}
+
+At the graduate level, I can teach core courses on programming languages, type theory, logic and proof theory. I would also love to lead graduate seminars covering the history of adaptable and intelligent programming systems (cf. the definitions in my research statement), and a survey course covering programming language design throughout the history of computing. I would also be interested in contributing to various methods courses for graduate students.
+
+I am also quite excited about the possibilities of incorporating the artifacts of my ongoing and future research into the classroom. In particular, I am working on two artifacts of note:
+\begin{enumerate}
+	\item \texttt{typy}, a statically typed language embedded into Python as a library. This language was described in our paper at GPCE 2016. This could potentially resolve a perennial tension: should we teach using a language that students are likely to see in industry (e.g. Python) or a language with a cleaner and richer semantics. With \texttt{typy}, you get both.
+	\item Hazel, the artifact that will serve to organize much of my future research. It should be possible to teach an introductory functional programming course using Hazel in the near future. Slightly further out, it should be possible to teach a programming languages course and a programming course for scientists using Hazel as well.
+\end{enumerate}
+In both cases, I believe that using these artifacts for teaching will not only expose students to exciting new tools, but feed back to help my research group make progress on their design.
+
+
+
+\end{document}
