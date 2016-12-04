@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1480654661 "omar-cv.tex" "omar-cv.pdf" "omar-cv" 1480654661
+["pdflatex"] 1480654661 "omar-cv.tex" "omar-cv.pdf" "omar-cv" 1480882922
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1479649822 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1479649807 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1479649810 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -68,13 +68,13 @@
   "/usr/share/texmf-dist/tex/latex/sectsty/sectsty.sty" 1476971572 22423 d476012cd03f82f9475ad54ba6cd3267 ""
   "/usr/share/texmf-dist/tex/latex/url/url.sty" 1479649819 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1479649825 31669 df537245012f3e5f05bdc55644b7a3df ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1480028239 1848177 b567b59fd9d62063141ec49d863a0fc4 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1480713386 1848177 b567b59fd9d62063141ec49d863a0fc4 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1480028227 7252864 d572e26cae74ac09f382e069790dd512 ""
   "omar-cv.aux" 1480654661 662 b2b94621371df8d9296b8bf5bec1b851 ""
   "omar-cv.out" 1480654661 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "omar-cv.tex" 1480654659 13621 dfcd0def1329aed99f3171f1acd08c53 ""
+  "omar-cv.tex" 1480882921 13621 dfcd0def1329aed99f3171f1acd08c53 ""
   (generated)
-  "omar-cv.pdf"
-  "omar-cv.out"
-  "omar-cv.log"
   "omar-cv.aux"
+  "omar-cv.log"
+  "omar-cv.out"
+  "omar-cv.pdf"
