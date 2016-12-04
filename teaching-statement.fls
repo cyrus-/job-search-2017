@@ -239,11 +239,11 @@ INPUT /usr/share/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT /usr/share/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
-INPUT /usr/share/texmf-dist/fonts/vf/adobe/palatino/pplr8c.vf
-INPUT /usr/share/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
 INPUT /usr/share/texmf-dist/tex/latex/newtxtt/t1newtxtt.fd
 INPUT /usr/share/texmf-dist/tex/latex/newtxtt/t1newtxtt.fd
 INPUT /usr/share/texmf-dist/fonts/tfm/public/newtxtt/newtxtta.tfm
+INPUT /usr/share/texmf-dist/fonts/vf/adobe/palatino/pplr8c.vf
+INPUT /usr/share/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
 INPUT teaching-statement.aux
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/newtxtt/txttAec.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.11.24)  1 DEC 2016 20:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.11.24)  1 DEC 2016 23:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -718,7 +718,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 74.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 75.
-LaTeX Font Info:    Try loading font information for TS1+ppl on input line 92.
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 94.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
@@ -726,13 +726,13 @@ File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Try loading font information for T1+newtxtt on input line 1
-03.
+05.
 
 (/usr/share/texmf-dist/tex/latex/newtxtt/t1newtxtt.fd
 File: t1newtxtt.fd 2014/12/23 Font definitions for T1/newtxtt.
 )
 LaTeX Font Info:    Font shape `T1/newtxtt/m/n' will be
-(Font)              scaled to size 9.0pt on input line 103.
+(Font)              scaled to size 9.0pt on input line 105.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `newtxtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -752,13 +752,13 @@ Here is how much of TeX's memory you used:
  19858 multiletter control sequences out of 15000+600000
  20151 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,5n,72p,994b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,5n,72p,1113b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/newtxtt/txtt
 Aec.enc}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-di
 st/fonts/type1/public/newtxtt/newtxtt.pfb></usr/share/texmf-dist/fonts/type1/ur
 w/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pf
 b></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on teaching-statement.pdf (2 pages, 63572 bytes).
+Output written on teaching-statement.pdf (2 pages, 63678 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream
