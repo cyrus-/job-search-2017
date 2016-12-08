@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1480652062 "teaching-statement.tex" "teaching-statement.pdf" "teaching-statement" 1480654554
+["pdflatex"] 1481217628 "teaching-statement.tex" "teaching-statement.pdf" "teaching-statement" 1481217628
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1479649822 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/enc/dvips/newtxtt/txttAec.enc" 1476972093 12640 5c77ac9a09863224fa4d495667f8e478 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1479649810 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -142,10 +142,10 @@
   "/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty" 1479649818 55589 34128738f682d033422ca125f82e5d62 ""
   "/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1479649818 4962 9c1069474ff71dbc47d5006555e352d3 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1479649825 31669 df537245012f3e5f05bdc55644b7a3df ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1480028239 1848177 b567b59fd9d62063141ec49d863a0fc4 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1480713386 1848177 b567b59fd9d62063141ec49d863a0fc4 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1480028227 7252864 d572e26cae74ac09f382e069790dd512 ""
-  "teaching-statement.aux" 1480652062 181 485004a72521c8a9602bb0b5d3067006 ""
-  "teaching-statement.tex" 1480652088 12152 56595015380509408930beec1816a468 ""
+  "teaching-statement.aux" 1481217628 181 485004a72521c8a9602bb0b5d3067006 ""
+  "teaching-statement.tex" 1481217627 12130 f23696f1b81793b30d8f6ae222b7728c ""
   (generated)
   "teaching-statement.pdf"
   "teaching-statement.log"
