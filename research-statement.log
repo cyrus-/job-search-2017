@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.11.24)  3 DEC 2016 14:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.11.24)  8 DEC 2016 11:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -760,10 +760,10 @@ Package pdftex.def Info: mockup-1.pdf used on input line 102.
 (./research-statement.aux) ) 
 Here is how much of TeX's memory you used:
  16906 strings out of 493013
- 319771 string characters out of 6139316
+ 319765 string characters out of 6139316
  410482 words of memory out of 5000000
  19963 multiletter control sequences out of 15000+600000
- 23217 words of font info for 135 fonts, out of 8000000 for 9000
+ 23221 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,6n,72p,1776b,1036s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/newtxtt/txtt
@@ -772,7 +772,7 @@ st/fonts/type1/public/newtxtt/newtxbtt.pfb></usr/share/texmf-dist/fonts/type1/p
 ublic/newtxtt/newtxtt.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplb8
 a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/te
 xmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on research-statement.pdf (3 pages, 184560 bytes).
+Output written on research-statement.pdf (3 pages, 184619 bytes).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
