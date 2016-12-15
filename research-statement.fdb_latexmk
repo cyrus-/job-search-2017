@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex research-statement"] 1480271562 "research-statement.aux" "research-statement.bbl" "research-statement" 1481612818
+["bibtex research-statement"] 1480271562 "research-statement.aux" "research-statement.bbl" "research-statement" 1481774046
   "/usr/share/texmf-dist/bibtex/bst/base/abbrv.bst" 1479649821 20329 b5fed53e10044d0f8112183785c759b1 ""
   "citations.bib" 1480101492 796 f5bc557a1b4d9c3543c1bae2d54b97e3 ""
-  "research-statement.aux" 1481612818 542 b4b0b0f9e7a8154a557bb070c4f91144 ""
+  "research-statement.aux" 1481774046 542 b4b0b0f9e7a8154a557bb070c4f91144 ""
   "research-statement.bcf" 0 -1 0 ""
   (generated)
   "research-statement.bbl"
   "research-statement.blg"
-["pdflatex"] 1481612818 "research-statement.tex" "research-statement.pdf" "research-statement" 1481612818
+["pdflatex"] 1481774045 "research-statement.tex" "research-statement.pdf" "research-statement" 1481774046
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1479649822 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/enc/dvips/newtxtt/txttAec.enc" 1476972093 12640 5c77ac9a09863224fa4d495667f8e478 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1479649810 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -151,10 +151,10 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1480713386 1848177 b567b59fd9d62063141ec49d863a0fc4 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1480028227 7252864 d572e26cae74ac09f382e069790dd512 ""
   "mockup-1.pdf" 1479796257 103020 3f5a5a6510b9d6ecd35297b4acb3064c ""
-  "research-statement.aux" 1481612818 542 b4b0b0f9e7a8154a557bb070c4f91144 ""
+  "research-statement.aux" 1481774046 542 b4b0b0f9e7a8154a557bb070c4f91144 ""
   "research-statement.bbl" 1480271562 370 1bb2a89124b340b2703f585a2b77e149 "bibtex research-statement"
-  "research-statement.tex" 1481612817 20814 5d9cdf04d0983be85c6e6f3b0ddc5e35 ""
+  "research-statement.tex" 1481774045 20957 450ae886e154037822f7392dede04d09 ""
   (generated)
-  "research-statement.log"
-  "research-statement.aux"
   "research-statement.pdf"
+  "research-statement.aux"
+  "research-statement.log"
