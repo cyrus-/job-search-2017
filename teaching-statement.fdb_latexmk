@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1481217628 "teaching-statement.tex" "teaching-statement.pdf" "teaching-statement" 1481217628
+["pdflatex"] 1481217628 "teaching-statement.tex" "teaching-statement.pdf" "teaching-statement" 1481775168
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1479649822 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/enc/dvips/newtxtt/txttAec.enc" 1476972093 12640 5c77ac9a09863224fa4d495667f8e478 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1479649810 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -147,6 +147,6 @@
   "teaching-statement.aux" 1481217628 181 485004a72521c8a9602bb0b5d3067006 ""
   "teaching-statement.tex" 1481217627 12130 f23696f1b81793b30d8f6ae222b7728c ""
   (generated)
-  "teaching-statement.pdf"
   "teaching-statement.log"
+  "teaching-statement.pdf"
   "teaching-statement.aux"
